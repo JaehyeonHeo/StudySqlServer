@@ -1,26 +1,26 @@
--- select, insert, update, delete 
-insert into userTBL values ('LSG', 'ÀÌ½Â±â', 1987, '¼­¿ï', '011', '11111111', 182, '2008-8-8');
-insert into userTBL values ('KBS', '±è¹ü¼ö', 1979, '°æ³²', '011', '22222222', 173, '2012-4-4');
-insert into userTBL values ('KKH', '±è°æÈ£', 1971, 'Àü³²', '019', '33333333', 177, '2007-7-7');
-insert into userTBL values ('JYP', 'Á¶¿ëÇÊ', 1950, '°æ±â', '011', '44444444', 166, '2009-4-4');
-insert into userTBL values ('SSK', '¼º½Ã°æ', 1979, '¼­¿ï', NULL, NULL, 186, '2013-12-12');
-insert into userTBL values ('LJB', 'ÀÓÀç¹ü', 1963, '¼­¿ï', '016', '66666666', 182, '2009-9-9');
-insert into userTBL values ('YJS', 'À±Á¾½Å', 1969, '°æ³²', NULL, NULL, 182, '2005-5-5');
-insert into userTBL values ('EJW', 'ÀºÁö¿ø', 1972, '°æºÏ', '011', '88888888', 174, '2014-3-3');
-insert into userTBL values ('JKW', 'Á¶°ü¿ì', 1965, '°æ±â', '018', '99999999', 172, '2010-10-10');
-insert into userTBL values ('BBK', '¹ÙºñÅ´', 1973, '¼­¿ï', '010', '00000000', 176, '2013-5-5');
+ï»¿-- select, insert, update, delete 
+insert into userTBL values ('LSG', 'ï¿½Ì½Â±ï¿½', 1987, 'ï¿½ï¿½ï¿½ï¿½', '011', '11111111', 182, '2008-8-8');
+insert into userTBL values ('KBS', 'ï¿½ï¿½ï¿½ï¿½ï¿½', 1979, 'ï¿½æ³²', '011', '22222222', 173, '2012-4-4');
+insert into userTBL values ('KKH', 'ï¿½ï¿½ï¿½È£', 1971, 'ï¿½ï¿½ï¿½ï¿½', '019', '33333333', 177, '2007-7-7');
+insert into userTBL values ('JYP', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 1950, 'ï¿½ï¿½ï¿½', '011', '44444444', 166, '2009-4-4');
+insert into userTBL values ('SSK', 'ï¿½ï¿½ï¿½Ã°ï¿½', 1979, 'ï¿½ï¿½ï¿½ï¿½', NULL, NULL, 186, '2013-12-12');
+insert into userTBL values ('LJB', 'ï¿½ï¿½ï¿½ï¿½ï¿½', 1963, 'ï¿½ï¿½ï¿½ï¿½', '016', '66666666', 182, '2009-9-9');
+insert into userTBL values ('YJS', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 1969, 'ï¿½æ³²', NULL, NULL, 182, '2005-5-5');
+insert into userTBL values ('EJW', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 1972, 'ï¿½ï¿½ï¿½', '011', '88888888', 174, '2014-3-3');
+insert into userTBL values ('JKW', 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', 1965, 'ï¿½ï¿½ï¿½', '018', '99999999', 172, '2010-10-10');
+insert into userTBL values ('BBK', 'ï¿½Ùºï¿½Å´', 1973, 'ï¿½ï¿½ï¿½ï¿½', '010', '00000000', 176, '2013-5-5');
 go
 
-insert into buyTBL values ('KBS', '¿îµ¿È­', NULL, 30, 2);
-insert into buyTBL values ('KBS', '³ëÆ®ºÏ', 'ÀüÀÚ', 1000, 1);
-insert into buyTBL values ('JYP', '¸ð´ÏÅÍ', 'ÀüÀÚ', 200, 1);
-insert into buyTBL values ('BBK', '¸ð´ÏÅÍ', 'ÀüÀÚ', 200, 5);
-insert into buyTBL values ('KBS', 'Ã»¹ÙÁö', 'ÀÇ·ù', 50, 3);
-insert into buyTBL values ('BBK', '¸Þ¸ð¸®', 'ÀüÀÚ', 80, 10);
-insert into buyTBL values ('SSK', 'Ã¥', '¼­Àû', 15, 5);
-insert into buyTBL values ('EJW', 'Ã¥', '¼­Àû', 15, 2);
-insert into buyTBL values ('EJW', 'Ã»¹ÙÁö', 'ÀÇ·ù', 50, 1);
-insert into buyTBL values ('BBK', '¿îµ¿È­', NULL, 30, 2);
-insert into buyTBL values ('EJW', 'Ã¥', '¼­Àû', 15, 1);
-insert into buyTBL values ('BBK', '¿îµ¿È­', NULL, 30, 2);
+insert into buyTBL values ('KBS', 'ï¿½îµ¿È­', NULL, 30, 2);
+insert into buyTBL values ('KBS', 'ï¿½ï¿½Æ®ï¿½ï¿½', 'ï¿½ï¿½ï¿½ï¿½', 1000, 1);
+insert into buyTBL values ('JYP', 'ï¿½ï¿½ï¿½ï¿½ï¿½', 'ï¿½ï¿½ï¿½ï¿½', 200, 1);
+insert into buyTBL values ('BBK', 'ï¿½ï¿½ï¿½ï¿½ï¿½', 'ï¿½ï¿½ï¿½ï¿½', 200, 5);
+insert into buyTBL values ('KBS', 'Ã»ï¿½ï¿½ï¿½ï¿½', 'ï¿½Ç·ï¿½', 50, 3);
+insert into buyTBL values ('BBK', 'ï¿½Þ¸ï¿½', 'ï¿½ï¿½ï¿½ï¿½', 80, 10);
+insert into buyTBL values ('SSK', 'Ã¥', 'ï¿½ï¿½ï¿½ï¿½', 15, 5);
+insert into buyTBL values ('EJW', 'Ã¥', 'ï¿½ï¿½ï¿½ï¿½', 15, 2);
+insert into buyTBL values ('EJW', 'Ã»ï¿½ï¿½ï¿½ï¿½', 'ï¿½Ç·ï¿½', 50, 1);
+insert into buyTBL values ('BBK', 'ï¿½îµ¿È­', NULL, 30, 2);
+insert into buyTBL values ('EJW', 'Ã¥', 'ï¿½ï¿½ï¿½ï¿½', 15, 1);
+insert into buyTBL values ('BBK', 'ï¿½îµ¿È­', NULL, 30, 2);
 go
