@@ -91,7 +91,7 @@ SELECT  r.rentalidx
    on c.cateidx = b.cateidx 
 
 /* inner join : 우리 상점을 이용한 사람 조회할 때 사용 
-   outer join : 우리 상점을 이용하지 않은 사람을 조회할 때 사용*/
+   outer join : 우리 상점을 이용하지 않은 사람을 조회할 때 사용 */
    
 
 			
