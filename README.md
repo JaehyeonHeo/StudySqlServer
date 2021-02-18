@@ -4,7 +4,7 @@ ___
 
 ## ✔ SQL server 
 * 기본 학습
-#### [🗒SQL server 기본 쿼리 학습]()
+#### [🗒SQL server 기본 쿼리 학습](https://github.com/JaehyeonHeo/StudySqlServer)
 
 ___
 ## ✔ Test 
