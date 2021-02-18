@@ -4,15 +4,15 @@ select lower(email) as 'email'
 	 , Mobile
 	 , Names
 	 , Addr
-from membertbl 
-order by Names desc;
+  from membertbl 
+ order by Names desc;
 
 --1-2
 select names
 	 , author
 	 , releaseDate
 	 , price
-from bookstbl
+  from bookstbl
 
 --2번 문항
 --2-1
@@ -20,8 +20,8 @@ select concat(right(names,2), ', ', left(names, 1)) as '변경이름'
      , levels
 	 , substring(Addr,0,3) as '도시'
 	 , lower(Email) as '이메일'
-from membertbl
-where Idx <= 10;
+  from membertbl
+ where Idx <= 10;
 
 --2-2
 select Idx
@@ -40,27 +40,27 @@ SELECT b.Idx as '번호'
 	 , d.Names as '장르'
 	 , b.Names as '책제목'
 	 , b.Author as '저자'
-  FROM  bookstbl as b
+ FROM  bookstbl as b
 inner join divtbl as d
    on b.Division = d.Division
-   where d.Division = 'B002';
+where d.Division = 'B002';
 
 --3-2
 select m.Names
      , m.Levels
 	 , m.Addr
 	 , r.rentalDate
-from membertbl as m
-left outer join rentaltbl as r 
-on m.Idx = r.memberIdx
-where rentalDate is null;
+  from membertbl as m
+  left outer join rentaltbl as r 
+    on m.Idx = r.memberIdx
+ where rentalDate is null;
 
 --4번 문항
 --4-1
 begin tran; 
 
- insert into divtbl  
-	values ('I002', '자기개발서')
+insert into divtbl  
+	 values ('I002', '자기개발서')
 		  
 
 rollback; 
@@ -73,9 +73,9 @@ select * from divtbl ;
 begin tran; 
 
  update membertbl 
-   set Addr = '부산시 해운대구'
-     , Mobile = '010-6683-7732' 
- where Idx = 26
+    set Addr = '부산시 해운대구'
+      , Mobile = '010-6683-7732' 
+  where Idx = 26
 
 rollback; 
 
@@ -86,8 +86,8 @@ select * from membertbl ;
 --5번 문항
 select d.Names
      , sum(b.Price) as '총합계금액'
-from bookstbl as b
-inner join divtbl as d 
-on b.Division = d.Division
-group by d.Names
-with rollup; 
+  from bookstbl as b
+ inner join divtbl as d 
+    on b.Division = d.Division
+ group by d.Names
+  with rollup; 
