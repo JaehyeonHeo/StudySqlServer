@@ -12,7 +12,7 @@ ___
 
 * 1번 문항
 ![1-1](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/1-1.png?raw=true) 
-```sqlserver
+```ssms
 select lower(email) as 'email'
 	 , Mobile
 	 , Names
