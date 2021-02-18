@@ -83,6 +83,7 @@ commit;
 
 select * from membertbl ;
 
+
 --5번 문항
 select d.Names
      , sum(b.Price) as '총합계금액'
