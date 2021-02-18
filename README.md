@@ -12,16 +12,9 @@ ___
 
 * 1번 문항
 ![1-1](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/1-1.png?raw=true) 
-```ssms
-select lower(email) as 'email'
-	 , Mobile
-	 , Names
-	 , Addr
-  from membertbl 
- order by Names desc;
- ```
+```
 ![1-1쿼리문](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/1-1%EC%BF%BC%EB%A6%AC.png?raw=true)
-
+```
 ![1-2](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/1-2.png?raw=true)
 ![1-2쿼리문](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/1-2%EC%BF%BC%EB%A6%AC.png?raw=true)
 
