@@ -12,6 +12,7 @@ ___
 
 #### <1번 문항>  
 ![1-1](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/Test_images/1-1.png?raw=true)
+
 ![1-1쿼리문](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/Test_images/1-1%EC%BF%BC%EB%A6%AC.png?raw=true)
 
 ![1-2](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/1-2.png?raw=true)
