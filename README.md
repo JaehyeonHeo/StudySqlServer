@@ -36,7 +36,7 @@ ___
 ![4-1쿼리문](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/Test_images/4-1%EC%BF%BC%EB%A6%AC.png?raw=true)
 #### <4-2>
 ![4-2](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/Test_images/4-2.png?raw=true)  
-![4-2쿼리문](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/Test_images/4-2%EC%BF%BC%EB%A6%AC.png?raw=true)
+![4-2쿼리문](https://raw.githubusercontent.com/JaehyeonHeo/StudySqlServer/f400e50aeab4c55f9ce96736ce8311c5ca6c2319/Test_images/4-2%EC%BF%BC%EB%A6%AC.png)
 
 #### <5>  
 ![5](https://github.com/JaehyeonHeo/StudySqlServer/blob/main/Test_images/5.png?raw=true)  
